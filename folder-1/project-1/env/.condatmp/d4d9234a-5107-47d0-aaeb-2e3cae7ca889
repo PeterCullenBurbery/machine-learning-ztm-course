@@ -1,0 +1,12 @@
+prefix=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library
+exec_prefix=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library
+libdir=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library/lib
+includedir=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}

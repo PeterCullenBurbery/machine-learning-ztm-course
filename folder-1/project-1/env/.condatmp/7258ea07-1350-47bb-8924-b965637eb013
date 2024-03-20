@@ -1,0 +1,13 @@
+prefix=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library
+exec_prefix=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library
+libdir=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library/lib
+sharedlibdir=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library/lib
+includedir=Z:/onedrive/GitHub/machine-learning-ztm-course/folder-1/project-1/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
